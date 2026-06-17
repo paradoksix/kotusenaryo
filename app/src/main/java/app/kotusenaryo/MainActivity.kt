@@ -23,6 +23,7 @@ class MainActivity : ComponentActivity() {
   // Application entry point
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
+    org.maplibre.android.MapLibre.getInstance(this)
     enableEdgeToEdge()
     setContent {
       KotuSenaryoTheme {
