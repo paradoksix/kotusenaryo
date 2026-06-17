@@ -1,0 +1,6 @@
+{
+  "name": "Kötü Senaryo",
+  "description": "Kriz anında harita üzerinden dayanışma",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
